@@ -1,4 +1,4 @@
-<!--GENTE, POR FAVOR COMENTEM O MÁXIMO DO CÓDIGO POSSÍVEL, PARA QUE A PRÓXIMA PESSOA QUE PEGOU O CÓDIGO NÃO FIQUE PERDIDA E SE ALGUÉM NÃO ESTIVER MANTENDO UM PADRÃO VAMOS ALERTAR. BOA PROGRAMAÇÃO A TODOS NÓS, VAMO FAZER UM PROJETO TOP-->
+<!--GENTE, POR FAVOR COMENTEM O MÁXIMO DO CÓDIGO POSSÍVEL E UTILIZEM O PADRÃO CAMELCASE, PARA QUE A PRÓXIMA PESSOA QUE PEGOU O CÓDIGO NÃO FIQUE PERDIDA E SE ALGUÉM NÃO ESTIVER MANTENDO UM PADRÃO VAMOS ALERTAR. BOA PROGRAMAÇÃO A TODOS NÓS, VAMO FAZER UM PROJETO TOP-->
     <!DOCTYPE html>
 <html lang="pt-br">
     <!-- head normal-->
@@ -14,19 +14,35 @@
         <!-- Criando um menu de acesso com a aba home e uma aba para a pontuação do jogador -->
         <nav class="Menu" role="navigation">
             <!--Logo da empresa -->
-                <img class="Logo" src="Imagens/logo.jpg"> 
+                <img class="Logo" src="Imagens/logo.jpg" alt="Logo da empresa fabricante">
+            <ul> 
                 <!-- <span> é uma tag html como a div para agrupar elementos na mesma linha e não em blocos -->
-                <ul class="Home"> <span class="Pontuacao"> Home </span> </ul>
-                <ul class="Pontuacao"> Pontuação </ul>
+                <li class="Home"> <span class="Pontuacao"> Home </span> </li>
+                <li class="Pontuacao"> Pontuação </li>
+            </ul>
         </nav>
         <!-- Criação de uma linha para separar o menu do corpo do jogo-->
         <hr class="Linha">
         <!--Uma classe HARDWARE para agrupar as opções de hardware disponíveis e ter uma melhor organização -->
         <div class="Hardware">
+            <!--Div para criar um retangulo lateral e com o nome Hardware-->
             <div class="Retangulo1"></div>
-            <img class="PlacaMae" src="Imagens/PlacaMae.jfif">
+            <!--Subtítulo que vai ficar dentro do retangulo cinza-->
+                <div class="SubTitulo"><h3>Hardware</h3></div>
+                <!--Imagens dos componentes de Hardware que serão utilizados -->
+
+                <!--Placa Maãe-->
+            <div class="PlacaMae">
+                <img  src="Imagens/PlacaMae.jfif" alt="Placa mãe de um computador">
+        </div>
+        <!--Fonte-->
+        <div class="Fonte">
+                <img src="Imagens/fonte.jfif" alt="Fonte de um computador">
         </div>
 
+        <div class="Ssd">
+                <img src="Imagens/ssd.jpg" alt="Ssd de um coputador">
+        </div>
     </div>
 </body>
 </html>

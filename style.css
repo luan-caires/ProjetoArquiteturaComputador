@@ -29,7 +29,14 @@ Menu{
     position: absolute;
 
 }
-PlacaMae{
+.SubTitulo{
+    width: 235px;
+    line-height: normal;
+    position: absolute;
+    top: 132px;
+    transform: rotate(1.57deg);
+}
+.PlacaMae{
     height: 231px;
     width: 231px;
     left: 192px;
