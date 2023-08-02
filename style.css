@@ -1,10 +1,14 @@
 /*GENTE POR FAVVOR, VAMOS DEIXAR OS PADRÕES DE CORES EM RGB E IR COMENTANDO O CÓDIGO PARA SABERMOS EM QUE PARTE DO HTML ESTÁ*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .PagPrincipal{
     background-color: rgb(255, 255, 255);
-    align-items: flex-start;
+    align-items: center;
     display: flex;
-    flex-direction: column;
     width: 1440px;
     overflow: hidden;
 }
