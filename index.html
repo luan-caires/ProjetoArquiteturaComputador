@@ -4,25 +4,29 @@
     <!-- head normal-->
 <head>
     <meta charset="UTF-8">
+    <title>Simulador de Erros</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erros Intel</title>
 </head>
 <body>
-    <!--Criando uma div principal para colocar todos os elementos da pág-->
-    <header class="PagPrincipal">
-          <!--Logo da empresa -->
-        <a href="index.html" class="Logo"> <img class="Logo" src="Imagens/logo.jpg" alt="Logo da empresa fabricante"></a>
-        <nav class="Menu" role="navigation">
-         <!-- Criando um menu de acesso com a aba home e uma aba para a pontuação do jogador -->
-            <ul> 
-                <li> Home </li>
-                <li> Pontuação </li>
-            </ul>
-        </nav>
+
+    <header><!--Cabeça do Site -> Onde ira ficar o menu-->
+        <div class="logo">
+            <a href="index.html"><img src="Imagens/logo.jpg" alt="Logo do Simulador de Erros"></a>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                </ul>
+            </nav>
+            <div class="pontuacao">
+                <h2>Pontuação</h2>
+            </div>
+        </div>
     </header>
-        <!-- Criação de uma linha para separar o menu do corpo do jogo-->
-        <hr class="Linha">
+
+    <main><!--Copor do Site -> Onde ira ficar todo o conteúdo do simulador-->
         <!--Uma classe HARDWARE para agrupar as opções de hardware disponíveis e ter uma melhor organização -->
         <div class="Hardware">
             <!--Div para criar um retangulo lateral e com o nome Hardware-->
@@ -47,5 +51,11 @@
         <div class="Monitor">
                 <img src="Imagens/Monitor.jfif" alt="Monitor de um computador">
         </div>
+    </main>
+
+    <footer id="rodape"> <!--Rodapé do Site-->
+
+    </footer>
+
 </body>
 </html>
