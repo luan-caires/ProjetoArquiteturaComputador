@@ -1,4 +1,5 @@
 /*GENTE POR FAVVOR, VAMOS DEIXAR OS PADRÕES DE CORES EM RGB E IR COMENTANDO O CÓDIGO PARA SABERMOS EM QUE PARTE DO HTML ESTÁ*/
+
 .PagPrincipal{
     background-color: rgb(255, 255, 255);
     align-items: flex-start;
@@ -8,17 +9,20 @@
     width: 1440px;
     overflow: hidden;
 }
+/*Características da logo do menu*/
 Logo{
     height: 109px;
     width: 210px;
     object-fit: cover;
 }
+/*Características do menu com os itens mais centralizados*/
 Menu{
     align-items: center;
     display: flex;
     margin-top: 20px;
     min-width: 1120px;
 }
+/*Retangulo cinza no meio da tela para informar os componentes de Hardware*/
 .Retangulo1{
     background-color: rgb(104, 104, 104);
     height: 329px;
@@ -29,6 +33,7 @@ Menu{
     position: absolute;
 
 }
+/*Texto da class REtangulo1, com o texto apenas HARDWARE*/
 .SubTitulo{
     width: 235px;
     line-height: normal;
@@ -36,6 +41,7 @@ Menu{
     top: 132px;
     transform: rotate(1.57deg);
 }
+/*características da imagem da placa mae*/
 .PlacaMae{
     height: 231px;
     width: 231px;
