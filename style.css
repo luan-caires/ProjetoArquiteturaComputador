@@ -5,23 +5,32 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    height: 1024px;
     width: 1440px;
     overflow: hidden;
 }
 /*Características da logo do menu*/
-Logo{
+.Logo{
     height: 109px;
     width: 210px;
     object-fit: cover;
 }
 /*Características do menu com os itens mais centralizados*/
-Menu{
+.Menu{
     align-items: center;
     display: flex;
     margin-top: 20px;
     min-width: 1120px;
 }
+.Menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
 /*Retangulo cinza no meio da tela para informar os componentes de Hardware*/
 .Retangulo1{
     background-color: rgb(104, 104, 104);
