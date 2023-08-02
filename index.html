@@ -1,5 +1,7 @@
-<!DOCTYPE html>
+<!--GENTE, POR FAVOR COMENTEM O MÁXIMO DO CÓDIGO POSSÍVEL, PARA QUE A PRÓXIMA PESSOA QUE PEGOU O CÓDIGO NÃO FIQUE PERDIDA E SE ALGUÉM NÃO ESTIVER MANTENDO UM PADRÃO VAMOS ALERTAR. BOA PROGRAMAÇÃO A TODOS NÓS, VAMO FAZER UM PROJETO TOP-->
+    <!DOCTYPE html>
 <html lang="pt-br">
+    <!-- head normal-->
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
@@ -7,13 +9,23 @@
     <title>Erros Intel</title>
 </head>
 <body>
+    <!--Criando uma div principal para colocar todos os elementos da pág-->
     <div class="PagPrincipal">
-        <div class="menu">
-                <img class="logo" src="Imagens/logo.jpg">
-                <h1 class="home"> Home </h1>
-                <h1 class="Pontuacao"> Pontuação </h1>
+        <!-- Criando um menu de acesso com a aba home e uma aba para a pontuação do jogador -->
+        <nav class="Menu" role="navigation">
+            <!--Logo da empresa -->
+                <img class="Logo" src="Imagens/logo.jpg"> 
+                <!-- <span> é uma tag html como a div para agrupar elementos na mesma linha e não em blocos -->
+                <ul class="Home"> <span class="Pontuacao"> Home </span> </ul>
+                <ul class="Pontuacao"> Pontuação </ul>
+        </nav>
+        <!-- Criação de uma linha para separar o menu do corpo do jogo-->
+        <hr class="Linha">
+        <!--Uma classe HARDWARE para agrupar as opções de hardware disponíveis e ter uma melhor organização -->
+        <div class="Hardware">
+            <div class="Retangulo1"></div>
+            <img class="PlacaMae" src="Imagens/PlacaMae.jfif">
         </div>
-        <hr>
 
     </div>
 </body>

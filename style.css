@@ -1,4 +1,38 @@
-body{
-width: 1440px;
-height: 1024px;
+/*GENTE POR FAVVOR, VAMOS DEIXAR OS PADRÕES DE CORES EM RGB E IR COMENTANDO O CÓDIGO PARA SABERMOS EM QUE PARTE DO HTML ESTÁ*/
+.PagPrincipal{
+    background-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    width: 1440px;
+    overflow: hidden;
+}
+Logo{
+    height: 109px;
+    width: 210px;
+    object-fit: cover;
+}
+Menu{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    min-width: 1120px;
+}
+.Retangulo1{
+    background-color: rgb(104, 104, 104);
+    height: 329px;
+    width: 37px;
+    left: 99px;
+    border-radius: 18px;
+    top: 18px;
+    position: absolute;
+
+}
+PlacaMae{
+    height: 231px;
+    width: 231px;
+    left: 192px;
+    object-fit: cover;
+
 }
