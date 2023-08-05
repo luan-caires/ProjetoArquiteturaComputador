@@ -6,13 +6,13 @@
 }
 /*--------------------------------------------HEADER---------------------------------------------*/
 header{
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     width: 100%;
-    min-height: 10rem;
+    min-height: 9rem;
     top: 0px;
-    border-bottom: 4px rgb(141, 138, 138) groove;
+    border-bottom: 4px rgb(201, 200, 200) inset;
     padding: 0.2rem;
 }
 .logo{
@@ -29,6 +29,29 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
+}
+.submenu ul li{
+    font-size: 1.4rem;
+    list-style: none;
+}
+.submenu ul li:hover{
+    transform: scale(1.2);
+}
+.pontuacao{
+    display: inline-flex;  
+    align-items: center; 
+}
+.pontuacao h2{
+    margin-right: 1rem;
+}
+.placar{
+    background-color: rgb(255, 255, 255);
+    width: 13rem;
+    height: 3rem;
+    border: 3px rgb(182, 179, 179) inset;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 2px rgb(170, 170, 170) inset;
 }
 
 /*----------------------------------------------MAIN---------------------------------------------*/
