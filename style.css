@@ -61,7 +61,27 @@ main {
     min-height: 100vh;
     padding-bottom: 2rem;
 }
-
+main img{
+    height: 10rem;
+    margin: 0.5rem;
+}
+/*----------------hardware----------------*/
+.Hardware{
+    display: flex;
+    padding: 0.5rem;
+}
+.SubTitulo{
+    margin: 5rem -4rem 0rem -5rem;
+    padding: 0.2rem;
+    font-size: 1.6rem;
+}
+.SubTitulo h3{
+    transform: rotate(-90deg); /*Rotacionar o "hardware" para a verical*/
+    border: none;
+    background-color: #6e6e6e;
+    border-radius: 50px;
+    padding: 0px 35px;
+}
 /*----------------------------------------------FOOTER-------------------------------------------*/
 footer{
     background-color: rgb(74, 69, 78);
