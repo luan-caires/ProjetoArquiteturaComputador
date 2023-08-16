@@ -72,16 +72,25 @@ main img{
 }
 .SubTitulo{
     margin: 5rem -4rem 0rem -5rem;
-    padding: 0.2rem;
+    padding: 0.3rem;
     font-size: 1.6rem;
 }
 .SubTitulo h3{
     transform: rotate(-90deg); /*Rotacionar o "hardware" para a verical*/
     border: none;
     background-color: #6e6e6e;
-    border-radius: 50px;
-    padding: 0px 35px;
+    border-radius: 5rem;
+    padding: 0rem 2rem 0rem 3rem;
 }
+
+/*----------------software----------------*/
+.Software{
+    display: flex;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+
 /*----------------------------------------------FOOTER-------------------------------------------*/
 footer{
     background-color: rgb(74, 69, 78);
