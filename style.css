@@ -81,6 +81,10 @@ main {
 .mostrarSolucoes{/*--------------------Mostrar Hardwares Para a Solução--------------------------*/
     background-color: white;
 }
+.mostrarSolucoes img{
+    width: 100%;
+    heigh: 100%;
+}
 .mostrarSolucoes:hover{
     transform: scale(1.03);
 }
@@ -95,6 +99,7 @@ main {
 
 .titulo-Hardware-Software{/*--------------------Titulo-Hardware-Software--------------------------*/
     background-color: blueviolet;
+    text-transform: rotate(-180deg); /*Rotacionar o "hardware" para a verical*/
     grid-row: 1/3;
 }
 
