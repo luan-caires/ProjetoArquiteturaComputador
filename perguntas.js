@@ -4,7 +4,7 @@ let perguntas = [
     resposta: "Processador"
     },
     {
-    pergunta:"Apesar de não haver distorções nas imagens, elas aparecem dentro do Windows com uma definição muito pobre e poucas cores. Informações adicionais: Ao entrar na configuração da resolução de tela do Windows, não é possível configurar para um número maior de cores, nem para uma resolução maior de tela. Apenas aparece a opção de utilizar.",
+    pergunta:"Apesar de não haver distorções nas imagens, elas aparecem dentro do Windows com uma definição muito pobre e poucas cores. <br><br>Informações adicionais: Ao entrar na configuração da resolução de tela do Windows, não é possível configurar para um número maior de cores, nem para uma resolução maior de tela. Apenas aparece a opção de utilizar.",
     resposta: "Monitor"
     },
     {

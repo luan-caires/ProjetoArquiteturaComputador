@@ -45,12 +45,13 @@ header{
 .pontuacao li{
     margin-right: 1rem;
 }
-.placar{
+#placar{
     background-color: rgb(255, 255, 255);
     width: 13rem;
     height: 3rem;
     border-radius: 30px;
     box-shadow: 0px 0px 10px 2px rgb(170, 170, 170) inset;
+    text-align: center;
 }
 
 /*----------------------------------------------MAIN---------------------------------------------*/
@@ -113,25 +114,25 @@ main {
 }
 
 .erro{
-    background-color: pink;
+   
     width: 100%;
-    height: 30rem;
+    height: 10rem;
     display: flex;
 }
 #mostrarErro{
-    background-color: rgb(67, 223, 223);
+    /*background-color: rgb(67, 223, 223);*/
     width: 70%;
     height: 30rem;
 }
+#mostraErro text{
+    margin: 3px 2px ;
+    font-size: medium;
+
+}   
 .textoErro{
     background-color: blue;
     width: 30%;
     height: 30rem;
-}
-.botao a{
-    text-decoration: none;
-    color: black;
-    margin-bottom:2px ;
 }
 
 /*----------------------------------------------FOOTER-------------------------------------------*/
