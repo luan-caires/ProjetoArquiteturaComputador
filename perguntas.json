@@ -1,7 +1,7 @@
-{
+[
     {
     pergunta: " O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de  qualquer programa é às vezes trava mesmo antes da boot.",
-    respota: "processador"
+    respota: "Processador"
     },
     {
     pergunta:"Apesar de não haver distorções nas imagens, elas aparecem dentro do Windows com uma definição muito pobre e poucas cores. Informações adicionais: Ao entrar na configuração da resolução de tela do Windows, não é possível configurar para um número maior de cores, nem para uma resolução
@@ -51,9 +51,9 @@
     resposta:"Watercooler"
     },
     {
-    pergunta:"Meu computador teve um drive de disquete mas o sd não reconhece o drive o drive a
-    não aparece dentro do SD problemas aparentes: nenhum problemas aparentes nenhuma mensagem de erro é
+    pergunta:"Meu computador teve um drive de disquete mas o sd não reconhece o drive e
+    não aparece dentro do SSD problemas aparentes: nenhum problemas aparentes nenhuma mensagem de erro é
     exibido.",
     resposta:"pincel"
     }
-}
+];

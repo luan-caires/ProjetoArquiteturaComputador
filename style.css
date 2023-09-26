@@ -81,6 +81,7 @@ main {
     background-color: white;
     width: 160px;
     height: 160px;
+    cursor:  pointer;
 }
 .mostrarSolucoes img{
     width: 100%;
@@ -117,7 +118,7 @@ main {
     height: 30rem;
     display: flex;
 }
-.mostrarErro{
+#mostrarErro{
     background-color: rgb(67, 223, 223);
     width: 70%;
     height: 30rem;
