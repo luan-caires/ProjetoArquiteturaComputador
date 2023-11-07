@@ -12,23 +12,15 @@ let perguntas = [
     resposta:"PlacaVideo"
     },
     {
-    pergunta:"Sintomas nenhum sinal de vídeo aparece no monitor.<br><br> Problemas aparente: nada aparece no monitor.<br><br> Informações adicionais: O computador não liga normalmente e você consegue ouvir o bip que indica sucesso no autoteste. Além disso aparece que o computador está carregando o SD normalmente porque você consegue.",
-    reposta:"PlacaMae"
-    },
-    {
-    pergunta:"Ao tentar carregar o sistema operacional o computador apresenta a mensagem disco sem sistema ou defeituoso.<br><br> Problemas aparentes: mensagem de erro disco sem sistema ou defeituoso.<br><br> Informações adicionais: O computador estava funcionando normalmente quando de repente parou de carregar o SD e começou a apresentar a mensagem de erro",
-    resposta:"Ssd"
-    },  
-    {
-    pergunta:"Ao tentar ler ou gravar arquivos e disquete ou Windows exibe uma mensagem de erro de acesso ao disco.<br><br>Informações adicionais: já foram utilizados vários disquetes diferentes inclusive disquetes novos Mas para todos ocorre o mesmo erro Problemasaparentes: mensagem de erro erro de acesso no disquete",
+    pergunta:"Ao tentar ler ou gravar arquivos e disquete ou Windows exibe uma mensagem de erro de acesso ao disco.<br><br>Informações adicionais: já foram utilizados vários disquetes diferentes inclusive disquetes novos Mas para todos ocorre o mesmo erro <br><br> Problemas aparentes: mensagem de erro erro de acesso no disquete",
     resposta:"SistemaOperacional"
     },
     {
-    pergunta:"Durante a utilização do computador ao acessar alguns arquivos no HD o computador trava durante algumas segundos e volta a funcionar às vezes ao tentar acessar alguns arquivos no HD o Windows avisa que eles estão corrompidos e não permite o acesso Problemas aparentes: mensagem de erro o arquivo que você está tentando acessar pode estar corrompido informações adicionais: às vezes pode se eu vi uns estalos bem altos que vem de dentro do computador.",
+    pergunta:"Durante a utilização do computador ao acessar alguns arquivos no HD o computador trava durante algumas segundos e volta a funcionar às vezes ao tentar acessar alguns arquivos no HD o Windows avisa que eles estão corrompidos e não permite o acesso.<br><br> Problemas aparentes: mensagem de erro o arquivo que você está tentando acessar pode estar corrompido informações adicionais: às vezes pode se eu vi uns estalos bem altos que vem de dentro do computador.",
     resposta:"Watercooler"
     },
     {
-    pergunta:"Meu computador teve um drive de disquete mas o sd não reconhece o drive e não aparece dentro do SSD problemas aparentes: nenhum problemas aparentes nenhuma mensagem de erro é exibido.",
+    pergunta:"Meu computador teve um drive de disquete mas o sd não reconhece o drive e não aparece dentro do SSD. <br><br>Problemas aparentes: nenhum problemas aparentes nenhuma mensagem de erro é exibido.",
     resposta:"pincel"
     },
     {
@@ -43,6 +35,14 @@ let perguntas = [
     pergunta:"O computador está muito lento, tanto para ler ou gravar arquivos quanto para executar problemas, digitar textos, acessar a Internet, etc. Alguns arquivos do usuário sumiram. Às vezes trava.",
     resposta:"Vírus"
     },
+    {
+    pergunta:"Sintomas nenhum sinal de vídeo aparece no monitor.<br><br> Problemas aparente: nada aparece no monitor.<br><br> Informações adicionais: O computador não liga normalmente e você consegue ouvir o bip que indica sucesso no autoteste. Além disso aparece que o computador está carregando o SD normalmente porque você consegue.",
+    reposta:"PlacaMae"
+    },
+    {
+    pergunta:"Ao tentar carregar o sistema operacional o computador apresenta a mensagem disco sem sistema ou defeituoso.<br><br> Problemas aparentes: mensagem de erro disco sem sistema ou defeituoso.<br><br> Informações adicionais: O computador estava funcionando normalmente quando de repente parou de carregar o SD e começou a apresentar a mensagem de erro",
+    resposta:"Ssd"
+    },  
     {
     pergunta:"O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa é às vezes trava mesmo antes da boot",
     resposta:"MemoriaRam"
