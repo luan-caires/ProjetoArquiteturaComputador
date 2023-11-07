@@ -18,7 +18,7 @@ function acaoclick(evento, erro)
 {
     let resposta = evento.target.id
     if(resposta == perguntas[idpergunta].resposta){
-        alert("Acertou");
+        alert("Parabéns, você conseguiu solucionar o problema!");
         idpergunta++;
        
        
@@ -27,7 +27,7 @@ function acaoclick(evento, erro)
         mostraPlacar(acerto);
         carregarPergunta(idpergunta);
     }else{
-        alert("Tente Novamente");
+        alert("Valeu a tentativa, mas o problema não está nesse componente!");
         pontos -= 10;
          
     }

@@ -1,8 +1,15 @@
 /*GENTE POR FAVVOR, VAMOS DEIXAR OS PADRÕES DE CORES EM RGB E IR COMENTANDO O CÓDIGO PARA SABERMOS EM QUE PARTE DO HTML ESTÁ*/
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Sometype Mono', monospace;
+    font-size: larger;
 }
 /*--------------------------------------------HEADER---------------------------------------------*/
 header{
@@ -66,12 +73,12 @@ main {
 .solucao{
     background-color: rgba(0, 0, 0, 0.082);
     width: 100%;
-    height: 25rem;
+    height: 28rem;
     margin: 1rem 0;
     display: flex;
 }
 .hardware{
-    width: 50%;
+    width: 60%;
     height: 25rem;
     display: grid;
     padding: 0.5rem;
@@ -93,7 +100,7 @@ main {
 }
 .software{
     width: 50%;
-    height: 25rem;
+    height: 28rem;
     display: grid;
     padding: 0.5rem;
     grid-template-columns: 13% repeat(4, 1fr);
@@ -121,8 +128,9 @@ main {
 }
 #mostrarErro{
     /*background-color: rgb(67, 223, 223);*/
-    width: 70%;
+    width: 100%;
     height: 30rem;
+    margin: 5px;
 }
 #mostraErro text{
     margin: 3px 2px ;
