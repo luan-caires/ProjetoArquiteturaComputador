@@ -108,7 +108,7 @@ main {
 }
 
 .titulo-Hardware-Software{/*--------------------Titulo-Hardware-Software--------------------------*/
-    background-color: blueviolet;
+    background-color: rgba(42, 48, 45, 0.593);
     text-transform: rotate(-180deg); /*Rotacionar o "hardware" para a verical*/
     grid-row: 1/3;
 }
