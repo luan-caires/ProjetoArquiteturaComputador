@@ -20,7 +20,7 @@ function acaoclick(evento, erro)
     if(resposta == perguntas[idpergunta].resposta){
         alert("Parabéns, você conseguiu solucionar o problema!");
         idpergunta++;
-       
+
        
         acerto+=pontos;
         pontos = 100;

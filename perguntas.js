@@ -1,6 +1,6 @@
 let perguntas = [
     {
-    pergunta: " O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de  qualquer programa é às vezes trava mesmo antes da boot.",
+    pergunta: " <b> O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de  qualquer programa é às vezes trava mesmo antes da boot.</b>",
     resposta: "Processador"
     },
     {
