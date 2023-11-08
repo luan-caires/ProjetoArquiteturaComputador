@@ -1,8 +1,15 @@
 /*GENTE POR FAVVOR, VAMOS DEIXAR OS PADRÕES DE CORES EM RGB E IR COMENTANDO O CÓDIGO PARA SABERMOS EM QUE PARTE DO HTML ESTÁ*/
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Sometype Mono', monospace;
+    font-size: larger;
 }
 /*--------------------------------------------HEADER---------------------------------------------*/
 header{
@@ -32,7 +39,7 @@ header{
     
 }
 .submenu ul li{
-    font-size: 1.4rem;
+    font-size: 35px;
     list-style: none;
 }
 .submenu ul li:hover{
@@ -40,17 +47,20 @@ header{
 }
 .pontuacao{
     display: inline-flex;  
-    align-items: center; 
+    align-items: center;
+     
 }
 .pontuacao li{
     margin-right: 1rem;
 }
-.placar{
+#placar{
     background-color: rgb(255, 255, 255);
     width: 13rem;
     height: 3rem;
     border-radius: 30px;
     box-shadow: 0px 0px 10px 2px rgb(170, 170, 170) inset;
+    text-align: center;
+    font-size: 30px;
 }
 
 /*----------------------------------------------MAIN---------------------------------------------*/
@@ -65,16 +75,17 @@ main {
 .solucao{
     background-color: rgba(0, 0, 0, 0.082);
     width: 100%;
-    height: 25rem;
+    height: 28rem;
     margin: 1rem 0;
     display: flex;
+    align-items: center;
 }
 .hardware{
-    width: 50%;
+    width: 60%;
     height: 25rem;
     display: grid;
     padding: 0.5rem;
-    grid-template-columns: 13% repeat(4, 1fr);
+    grid-template-columns: 13% repeat(5, 1fr);
     gap: 0.5rem;
 }
 .mostrarSolucoes{/*--------------------Mostrar Hardwares Para a Solução--------------------------*/
@@ -100,7 +111,7 @@ main {
 }
 
 .titulo-Hardware-Software{/*--------------------Titulo-Hardware-Software--------------------------*/
-    background-color: blueviolet;
+    background-color: rgba(42, 48, 45, 0.593);
     text-transform: rotate(-180deg); /*Rotacionar o "hardware" para a verical*/
     grid-row: 1/3;
 }
@@ -113,25 +124,29 @@ main {
 }
 
 .erro{
-    background-color: pink;
+   
     width: 100%;
-    height: 30rem;
+    height: 10rem;
     display: flex;
 }
 #mostrarErro{
-    background-color: rgb(67, 223, 223);
-    width: 70%;
+    /*background-color: rgb(67, 223, 223);*/
+    width: 100%;
     height: 30rem;
+    font-size: 50px;
+    margin: 5px;
+    padding: 0 2rem;
+    text-indent:4em
 }
+#mostraErro text{
+    margin: 3px 2px ;
+    font-size: medium;
+
+}   
 .textoErro{
     background-color: blue;
     width: 30%;
     height: 30rem;
-}
-.botao a{
-    text-decoration: none;
-    color: black;
-    margin-bottom:2px ;
 }
 
 /*----------------------------------------------FOOTER-------------------------------------------*/
